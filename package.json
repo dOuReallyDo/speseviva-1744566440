@@ -1,0 +1,14 @@
+{
+  "name": "speseviva-1744566440",
+  "version": "1.0.0",
+  "description": "Aiutare gli utenti a controllare meglio le loro spese e trovare modi per risparmiarle",
+  "scripts": {
+    "dev": "npm run dev:frontend & npm run dev:backend",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start": "npm run start:backend"
+  },
+  "author": "dOuReallyDo",
+  "license": "MIT"
+}
